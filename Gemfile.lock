@@ -2,6 +2,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.3.0)
+    mini_portile2 (2.1.0)
+    nokogiri (1.7.0.1)
+      mini_portile2 (~> 2.1.0)
     parser (2.3.3.1)
       ast (~> 2.2)
     powerpack (0.1.1)
@@ -19,6 +22,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  nokogiri
   rubocop
 
 BUNDLED WITH
