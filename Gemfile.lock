@@ -27,6 +27,7 @@ PLATFORMS
 
 DEPENDENCIES
   anemone
+  bundler
   nokogiri
   rubocop
 
