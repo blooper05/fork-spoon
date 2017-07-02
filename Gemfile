@@ -3,8 +3,8 @@ source 'https://rubygems.org'
 
 gem 'nokogiri' # Nokogiri (鋸) is an HTML, XML, SAX, and Reader parser
 gem 'anemone'  # Anemone web-spider framework
-gem 'rubocop'  # A Ruby static code analyzer
-gem 'annotate_gem'
+gem 'rubocop'  # Automatic Ruby code style checking tool.
+gem 'annotate_gem' # Add comments to your Gemfile with each dependency's description.
 
 # Standard Libraries
 gem 'bundler', require: %w(readline)
