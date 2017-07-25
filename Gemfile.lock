@@ -10,7 +10,7 @@ GEM
     mini_portile2 (2.2.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
-    parallel (1.11.2)
+    parallel (1.12.0)
     parser (2.4.0.0)
       ast (~> 2.2)
     powerpack (0.1.1)
@@ -39,4 +39,4 @@ DEPENDENCIES
   rubocop
 
 BUNDLED WITH
-   1.15.1
+   1.15.3
