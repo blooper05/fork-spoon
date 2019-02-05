@@ -1,15 +1,25 @@
+---
 AllCops:
   DefaultFormatter: fuubar
   DisplayCopNames: true
   DisplayStyleGuide: true
   ExtraDetails: true
 
+#################### Layout ################################
+
+Layout/AlignHash:
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle: table
+
 #################### Style #################################
 
 Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: comma
 
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: comma
 
 #################### Metrics ###############################
