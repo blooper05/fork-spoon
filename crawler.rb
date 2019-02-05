@@ -7,8 +7,8 @@ DOMAIN = 'https://github.com'
 SUFFIX = 'network/members'
 
 OPTS = {
-  delay:           1,
-  depth_limit:     1,
+  delay:       1,
+  depth_limit: 1,
   # obey_robots_txt: true
 }.freeze
 
@@ -16,7 +16,7 @@ OPTS = {
 (REPOSITORY = Readline.readline('Repository: ')).empty? && raise
 
 ORIGINAL = "#{DOMAIN}/#{ACCOUNT}/#{REPOSITORY}/#{SUFFIX}"
-FORKS    = %r{\A#{DOMAIN}/[a-zA-Z0-9-]+/#{REPOSITORY}\z}
+FORKS    = %r{\A#{DOMAIN}/[a-zA-Z0-9-]+/#{REPOSITORY}\z}.freeze
 
 XPATH = '//a[contains(./@href, "/stargazers")]'
 
