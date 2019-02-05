@@ -2,6 +2,8 @@
 
 source 'https://rubygems.org'
 
+ruby File.read('.ruby-version').strip
+
 gem 'anemone'  # Anemone web-spider framework
 gem 'nokogiri' # Nokogiri (鋸) is an HTML, XML, SAX, and Reader parser
 
