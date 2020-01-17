@@ -7,9 +7,13 @@ AllCops:
 
 #################### Layout ################################
 
-Layout/AlignHash:
+Layout/HashAlignment:
   EnforcedHashRocketStyle: table
   EnforcedColonStyle: table
+
+Layout/LineLength:
+  Exclude:
+    - Gemfile
 
 #################### Style #################################
 
@@ -21,9 +25,3 @@ Style/TrailingCommaInArrayLiteral:
 
 Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: comma
-
-#################### Metrics ###############################
-
-Metrics/LineLength:
-  Exclude:
-    - Gemfile
